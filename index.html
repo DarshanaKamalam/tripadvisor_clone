@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Stylesheet-->
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/Tripadvisor_logoset_solid_green.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Nunito:wght@500&display=swap" rel="stylesheet">
     <title>Tripadvisor: Over a billion reviews & contributions for Hotels, Attractions, Restaurants and more</title>
 </head>
 
@@ -30,58 +34,75 @@
             <i class="fa-solid fa-bars"></i>
             <img src="./images/Tripadvisor_logo.png" width="150px">
         </div>
-        <div class="tabs">
+        <div class="tabs tabsm">
             <center>
-                <h1 class="tabs-title">Where to?</h1>
-                <div class="tabs-click">
+                <h1 class="tabs-title tabs-titlem">Where to?</h1>
+                <div class="tabs-click tabs-clickm">
                     <a href=""><img src="./images/house.png" width="20px">Search All</a>
                     <a href=""><img src="./images/bed.png" width="20px">Hotels</a>
                     <a href=""><img src="./images/ticket.png" width="20px">Things to Do</a>
                     <a href=""><img src="./images/restaurant.png" width="20px">Restaurants</a>
                     <a href=""><img src="./images/key.png" width="20px">Holiday Homes</a>
                 </div>
-                <div class="search">
+                <div class="search searchm">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="search" placeholder="Places to go, things to do, hotels...">
                     <button>Search</button>
                 </div>
+                <div class="search_cont">
+                    <div class="searchbar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" placeholder="Places to go, things to do, hotels...">
+                    </div><center>
+                    <button>Search</button></center>
+                </div>
             </center>
         </div>
-        <div class="banner">
-            <img src="./images/banner_1.jpg" alt="">
-            <div class="banner_title banner_titlem">
-                <h1>Make the year's best memories together</h1>
-                <p>Check out our top trip recs for the year-end</p>
-                <button>See the guide</button>
+        <div class="wrapper1">
+            <div class="image1">
+                <img src="./images/banner_1.jpg" alt="">
+                <div class="content1">
+                    <h1>Make the year's best memories together</h1>
+                    <p>Check out our top trip recs for the year-end</p>
+                    <button class="guide">See the guide</button>
+                </div>
             </div>
         </div>
-        <div class="Bookings">
-            <div class="Bookings_title">
+        <div class="Bookings Bookingsm">
+            <div class="Bookings_title Bookings_titlem">
                 <h1>Year-end trips to book right now</h1>
                 <a href="">See more</a>
             </div>
             <p>Countdown parties, sunny beaches, and cultural getaways</p>
         </div>
-        <div class="Booking-imgs">
-            <div class="Booking-imgs__clicks">
+        <div class="wrapper">
+            <div class="image">
                 <img src="./images/Dubai, United Arab Emirates.jpg" alt="">
-                <h1>Dubai, United Arab Emirates</h1>
+                <div class="content">
+                    <h1>Dubai, United Arab Emirates</h1>
+                </div>
             </div>
-            <div class="Booking-imgs__clicks">
+            <div class="image">
                 <img src="./images/Sydney, Australia.jpg" alt="">
-                <h1>Sydney, Australia</h1>
+                <div class="content">
+                    <h1>Sydney, Australia</h1>
+                </div>
             </div>
-            <div class="Booking-imgs__clicks">
+            <div class="image">
                 <img src="./images/Taipei, Taiwan.jpg" alt="">
-                <h1>Taipei, Taiwan</h1>
+                <div class="content">
+                    <h1>Taipei, Taiwan</h1>
+                </div>
             </div>
-            <div class="Booking-imgs__clicks">
+            <div class="image">
                 <img src="./images/Airlie Beach, Australia.jpg" alt="">
-                <h1>Airlie Beach, Australia</h1>
+                <div class="content">
+                    <h1>Airlie Beach, Australia</h1>
+                </div>
             </div>
         </div>
         <div class="recent">
-            <h2>Your recent searches</h2>
+            <h1>Your recent searches</h1>
             <div class="recent_tab">
                 <img src="./images/location.png" alt="" width="40px" height="40px">
                 <div class="recent_text">
@@ -125,38 +146,44 @@
             </div>
         </div>
         <div class="asia">
-            <div class="Bookings_title">
-                <h1>Vibrant Asian cities</h1>
-            </div>
+            <h1>Vibrant Asian cities</h1>
             <p>From rich cultural history to psychedelic streets</p>
         </div>
-        <div class="Booking-imgs">
-            <div class="Booking-imgs__clicks">
+        <div class="wrapper">
+            <div class="image">
                 <img src="./images/asia-1.jpg" alt="">
-                <h1>Hanoi, Vietnam</h1>
+                <div class="content">
+                    <h1>Hanoi, Vietnam</h1>
+                </div>
             </div>
-            <div class="Booking-imgs__clicks">
+            <div class="image">
                 <img src="./images/asia-2.jpg" alt="">
-                <h1>Phlket, Thailand</h1>
+                <div class="content">
+                    <h1>Phlket, Thailand</h1>
+                </div>
             </div>
-            <div class="Booking-imgs__clicks">
+            <div class="image">
                 <img src="./images/asia-3.jpg" alt="">
-                <h1>Ho CHi Minh City, Vietnam</h1>
+                <div class="content">
+                    <h1>Ho CHi Minh City, Vietnam</h1>
+                </div>
             </div>
-            <div class="Booking-imgs__clicks">
+            <div class="image">
                 <img src="./images/asia-4.jpg" alt="">
-                <h1>Bali, Indonesia</h1>
+                <div class="content">
+                    <h1>Bali, Indonesia</h1>
+                </div>
             </div>
         </div>
-        <div class="ideas">
-            <div class="ideas_text">
-                <h1>See something you love? Click the heart to save it</h1>
-                <p>And see all Your saved travel ideas on map</p>
-                <button>Get started</button>
-            </div>
-            <div class="imgs">
-                <img id="bg1" src="./images/ideas-img_1.jpg" width="100%">
-                <img id="logo1" src="./images/Tripadvisor_white logo.svg" width="150px" alt="">
+
+        <div class="wrapper2">
+            <div class="image1">
+                <img src="./images/banner_2.jpg" alt="">
+                <div class="content1">
+                    <h1>Make the year's best memories together</h1>
+                    <p>Check out our top trip recs for the year-end</p>
+                    <button class="guide">See the guide</button>
+                </div>
             </div>
         </div>
 
@@ -195,51 +222,65 @@
         </div>
     </div>
     <div class="asia asia_1">
-        <div class="Bookings_title">
+        <div class="Bookings_title1">
             <h1>Dream Your Next Trip</h1>
         </div>
         <p>Weekend getaways from Auroville</p>
     </div>
-    <div class="Booking-imgs">
-        <div class="Booking-imgs__clicks">
+    <div class="wrapper">
+        <div class="image">
             <img src="./images/chennai (Madras), India.jpg" alt="">
-            <h1>chennai (Madras), India</h1>
+            <div class="content">
+                <h1>chennai (Madras), India</h1>
+            </div>
         </div>
-        <div class="Booking-imgs__clicks">
+        <div class="image">
             <img src="./images/Bengaluru, India.jpg" alt="">
-            <h1>Bengaluru, India</h1>
+            <div class="content">
+                <h1>Bengaluru, India</h1>
+            </div>
         </div>
-        <div class="Booking-imgs__clicks">
+        <div class="image">
             <img src="./images/Mysuru (Mysore), India.jpg" alt="">
-            <h1>Mysuru (Mysore), India</h1>
+            <div class="content">
+                <h1>Mysuru (Mysore), India</h1>
+            </div>
         </div>
-        <div class="Booking-imgs__clicks">
+        <div class="image">
             <img src="./images/Ooty (Udhagamandal), India.jpg" alt="">
-            <h1>Udhagamandal, India</h1>
+            <div class="content">
+                <h1>Udhagamandal, India</h1>
+            </div>
         </div>
     </div>
     <div class="asia_2">
-        <div class="Bookings_title">
-            <h1>Top destinations for your next holiday</h1>
-        </div>
+        <h1>Top destinations for your next holiday</h1>
         <p>Here's where your fellow travellers are headed</p>
     </div>
-    <div class="Booking-imgs">
-        <div class="Booking-imgs__clicks">
+    <div class="wrapper">
+        <div class="image">
             <img src="./images/Kyoto, Japan.jpg" alt="">
-            <h1>Kyoto, Japan</h1>
+            <div class="content">
+                <h1>Kyoto, Japan</h1>
+            </div>
         </div>
-        <div class="Booking-imgs__clicks">
+        <div class="image">
             <img src="./images/Hanoi, Vietnam.jpg" alt="">
-            <h1>Hanoi, Vietnam</h1>
+            <div class="content">
+                <h1>Hanoi, Vietnam</h1>
+            </div>
         </div>
-        <div class="Booking-imgs__clicks">
+        <div class="image">
             <img src="./images/Singapore, Singapore.jpg" alt="">
-            <h1>Singapore, Singapore</h1>
+            <div class="content">
+                <h1>Singapore, Singapore</h1>
+            </div>
         </div>
-        <div class="Booking-imgs__clicks">
+        <div class="image">
             <img src="./images/Dubai, United Arab Emirates_.jpg" alt="">
-            <h1>Dubai, United Arab Emirates</h1>
+            <div class="content">
+                <h1>Dubai, United Arab Emirates</h1>
+            </div>
         </div>
     </div>
     <div class="end">
@@ -253,80 +294,96 @@
             <img src="./images/endimg.jpg" alt="">
         </div>
     </div>
+    <div class="endm">
+        <div class="endm-title">
+            <img src="./images/TC_badge_yellow.svg" alt="">
+            <h1>Travellers' Choice Best of the Best</h1>
+            <p>Our top 1% of places, stays, eats, and experiences—decided by you.</p>
+            <button>See the winners</button>
+        </div>
+        <div class="endm-img">
+            <img src="./images/endimg.jpg" alt="">
+        </div>
+    </div>
     <div class="footer">
         <div class="footer_container">
             <div>
-                <p href="">Abot Tripadvisor</p>
-                <p href="">About Us</p>
-                <p href="">Press</p>
-                <p href="">Resources and Policies</p>
-                <p href="">Careers</p>
-                <p href="">Trust & Safety</p>
-                <p href="">Contact Us</p>
-                <p href="">Accessiility Statement</p>
+                <p>About Tripadvisor</p>
+                <a href="">About Us</a><br>
+                <a href="">Press</a><br>
+                <a href="">Resources and Policies</a><br>
+                <a href="">Careers</a><br>
+                <a href="">Trust & Safety</a><br>
+                <a href="">Contact Us</a><br>
+                <a href="">Accessiility statement</a>
             </div>
             <div>
-                <p href="">Explore</p>
-                <p href="">Write a review</p>
-                <p href="">Add a Place</p>
-                <p href="">Join</p>
-                <p href="">Traveller's Choice</p>
-                <p href="">GreenLeaders</p>
-                <p href="">Help Centre</p>
-                <p href="">Travel Articles</p>
+                <p>Explore</p>
+                <a href="">Write a review</a><br>
+                <a href="">Add a Place</a><br>
+                <a href="">Join</a><br>
+                <a href="">Traveller's Choice</a><br>
+                <a href="">GreenLeaders</a><br>
+                <a href="">Help Centre</a><br>
+                <a href="">Travel Articles</a>
             </div>
             <div>
-                <p href="">Do Bsiness With Us</p>
-                <p href="">Owners & DMO/CVB</p>
-                <p href="">Business Advantage</p>
-                <p href="">Sponsored Placements</p>
-                <p href="">Access our Content API</p>
-                <p href="">Get the App</p>
-                <p href="">iPhone App</p>
-                <p href="">Android App</p>
+                <p>Do Business With Us</p>
+                <a href="">Owners & DMO/CVB</a><br>
+                <a href="">Business Advantage</a><br>
+                <a href="">Sponsored Placements</a><br>
+                <a href="">Access our Content API</a><br>
+                <a href="">Get the App</a><br>
+                <a href="">iPhone App</a><br>
+                <a href="">Android App</a>
             </div>
             <div>
                 <p>Tripadvisor Sites</p>
                 <p>Book tours and attraction tickets on Viator</p>
             </div>
         </div>
-        <div class="footer_note">
-            <div class="footer_note-left">
-                <div class="footer_note-tleft">
-                    <img src="./images/Tripadvisor_logoset_solid_green.svg" alt="">
-                    <div class="footer_noteleft">
-                        <p>&copy; 2023 Tripadvisor LLC All rights reserved.</p>
-                        <a href="">Terms of Use</a>
-                        <a href="">Privacy and Cookies Statement</a>
-                        <a href="">Cookie consent</a>
-                        <a href="">Site Map</a>
-                        <a href="">How the site works</a>
-                        <a href="">Contact us</a>
-                    </div>
-                </div>
-                <p>This is the version of our website addressed to speakers of English in India. If you are a
-                    resident
-                    of another country or region, please select the appropriate version of Tripadvisor for your
-                    country
-                    or region in the drop-down menu. more</p>
+        <div class="footer_containerm">
+            <a href="#"><p>+ &nbsp; About Tripadvisor</p></a>    
+            <a href="#"><p>+ &nbsp; Explore</p></a>    
+            <a href="#"><p>+ &nbsp; Do Business With Us</p></a>    
+            <a href="#"><p>+ &nbsp; Get the App</p></a>    
+            <a href="#"><p>+ &nbsp; Tripadvisor Sites</p></a>    
+        </div>
+    </div>
+    <div class="close closem">
+        <div class="close_row1 close_row1m">
+            <div class="close_row1e1 close_row1e1m">
+                <img src="./images/Tripadvisor_logoset_solid_green.svg" alt="">
             </div>
-            <div class="footer_noter-right">
-                <div class="footer_noter-right1">
-                    <select name="Crrency" id="currency">
-                        <option value="#">INR</option>
-                        <option value="#">USD</option>
-                        <option value="#">IDR</option>
-                        <option value="#">JPY</option>
-                      </select>
-                      <select name="Country" id="Country">
-                        <option value="#">Afghanistan</option>
-                        <option value="#">Albania</option>
-                        <option value="#">Algeria</option>
-                        <option value="#">Andorra</option>
-                        <option value="#">Angola</option>
-                      </select>
-                </div>
+            <div class="close_row1e2 close_row1e2m">
+                <p>&copy; 2023 Tripadvisor LLC All rights reserved.</p>
+                <a href="">Terms of Use</a>
+                <a href="">Privacy and Cookies Statement</a><br>
+                <a href="">Cookie consent</a>
+                <a href="">Site Map</a><br>
+                <a href="">How the site works</a>
+                <a href="">Contact us</a>
             </div>
+            <div class="close_row1e3 close_row1e3m">
+                <select name="Crrency" id="currency">
+                    <option value="#">INR</option>
+                    <option value="#">USD</option>
+                    <option value="#">IDR</option>
+                    <option value="#">JPY</option>
+                </select>
+                <select name="Country" id="Country">
+                    <option value="#">Afghanistan</option>
+                    <option value="#">Albania</option>
+                    <option value="#">Algeria</option>
+                    <option value="#">Andorra</option>
+                    <option value="#">Angola</option>
+                </select>
+            </div>
+        </div>
+        <div class="close_row2">
+            <p>This is the version of our website addressed to speakers of English in India. If you are a
+                resident of another country or region, please select the appropriate version of Tripadvisor for your
+                country or region in the drop-down menu. more</p>
         </div>
     </div>
 </body>
